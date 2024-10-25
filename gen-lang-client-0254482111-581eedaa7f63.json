@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "gen-lang-client-0254482111",
+  "private_key_id": "581eedaa7f639e9a7703880f260542bd00a5d353",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCXV8Ra+1Evdq5J\nLBJ8uAvFDvltaGKvYWwCIvJduXHtlha+1nX5mYKqs4bIZTqQXcXYPnSHHjqZORFX\nAdYYGnU9X+OqGRAxaJm7vJQgoFyHtkmyysI51tMQ952D3OS48lcKc6YI9tVeCA4d\npde6Qcm6tl/zKUyioJ/m/GLZGy7vNEHZwrsoX032Ma85zLjehgjUjrmDHmlZ1ZzE\nrpdJrbb6GHM81Esdj3QWkgB7eVWR6vqa82j3q9jtzZvoC4j08tPCBSPpR7as0Lyx\nDH2S6k+Obmym6dOrUoF59MYyVvQ/5AtnVyiWDnzmJkgBJDqXgs+6gsCRknW3EgUT\nDIeWbhtfAgMBAAECggEAD0QNzRTx/ipShOmqfmTHiyZqMocHrU5+aUNtKdcS5Dby\nLxMi7f0gw7yS0+lMxv3ZKb7jB4jHuxJD6tWHQFcq4aNSgPiWPDr43DRhcgkQTFWE\nNEIPkBYDTwArJf9EyFhplJGl0IcAGW676HGvblzvJE5RJLioaknELLXjTVMDS6LU\noZDRgRUR1EihjMCvQ/GzfG1YnKwbfsGmAQtq2Hb16NKvwIHez1ee8kHw4qkt/BXq\nKz4BBUjFSzais30Qbcx439GmvxWsF0jWkH5RqyHno1Y64KmKhKN6S+JgcgzWwWDJ\nPAK1+2oRzIkS+w7O4jGF7gPjw+6NGmd8Ry5XOHSlwQKBgQDVAmshsZes0hPAFlB5\n7EG3fax2214OzRgdValMVwsXS8IpsT04rAZHcA6o3J9u8oZxhCeEEa4aOTA4zkG4\nKuIp0iE0Ejd0SALehu+k6AdPoLSVmd65gWEp9lg5wxWB0thMpGxkR5lJeTCqRzp1\nGB+WueTy3akqrTHjqhX3wMUovQKBgQC14zakO8Qb36iaWqWakmWx94km5sSvOLAY\nXypr8kFopdiWqmd+AE/tYMXua1gRlaNJVAcBK2u6a6i5WZ3g5DVgCbZzlLKt6OYd\nn1ayF7IMA7OBsRFHQknHr/BWW4iRKlpVcwqz2zWXwJkbcwCfJYd2+xKiIX3a2ma9\nMF/acLicSwKBgQCDm5btnniEQtgJGsBmVF7WLEPeu/MFWhrIJSERFca4ggpZEDUv\nSromcUndc1LejeIbSPfRVcsoUKVGs8lPLM/H3xi8v3Sb19JOAzkVvnal8DkjJYrD\nOvj5oEcqiSpEqC0UTZLa8pH3H3W9/3xS1LDPw9N9aw8WWyQz8ebYyLYIUQKBgAef\ntXue0bKFZnDJ2eUnu8GA6avKwnXBv4fV/VY2+kzjnrd5/wqGAtOlWcaLk05xYj3B\nmuWOp15SAul5+ychCaez4ITpt6+YcoTNV/nxClJ8mTqXbGz7N1J6am2EOq4zA0RP\npSQyzQVGWmSPJniFPy9aiMZo9viEbQgDDhF+5g4PAoGBANPAjr0uvGRwYREB9dCK\ntVXiRQJommCUuG8fUDE1FGyGyuHvZZzMzQap5//6PxVshSJFypV4zfXesXWuTCiu\nezKypyjSiuGJEfkRpR5Rv7WjRg24REnHQaILbXbPvUN/Veas4ujlVs0NdcsvC4CE\nDiY1JsgrqTjryTfkwqgkQz3g\n-----END PRIVATE KEY-----\n",
+  "client_email": "speech-to-text-service-account@gen-lang-client-0254482111.iam.gserviceaccount.com",
+  "client_id": "109459899689727399143",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/speech-to-text-service-account%40gen-lang-client-0254482111.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
