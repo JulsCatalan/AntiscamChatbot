@@ -1,15 +1,15 @@
 [
   {
-    "ref": "fee71547-1e25-42c5-b4b4-2f72afc3f5d3",
-    "keyword": "8d487ee532692fde63d2faf284b40abf",
+    "ref": "e07b8f94-8071-45ad-b10c-de62347fb614",
+    "keyword": "5f1d1387efa69cf34fb421023929b6cb",
     "answer": "Ayuda",
     "options": {},
-    "from": "5215567905798",
+    "from": "5215619884813",
     "refSerialize": "6f1c8ec9910afc8ad71c026ec0c69f3d"
   },
   {
-    "ref": "ans_0949bc71-aad1-433e-94eb-803d04da0535",
-    "keyword": "key_288edfe0-e9de-47a0-a7a0-7b74383018cd",
+    "ref": "ans_ea3e4fe1-7262-4ffd-aecb-962e0de0a5c5",
+    "keyword": "key_5618fbf1-fd20-47ba-bcd8-da560ad17761",
     "answer": "Hola! Soy tu asistente en ciberseguridad y estoy para ayudarte y resolver tus dudas. Escribe el número de la opción con la que requieres asistencia.",
     "options": {
       "media": null,
@@ -23,13 +23,13 @@
       "keyword": {},
       "callback": false
     },
-    "refSerialize": "e4aa82cb32c6ddc16c0df6132d733a6b",
-    "from": "5215567905798"
+    "refSerialize": "57a18d9834fcaad0f901c412aaf4b453",
+    "from": "5215619884813"
   },
   {
-    "ref": "ans_2b379421-fa83-491d-b6b8-d1ef4c2c1f77",
-    "keyword": "ans_0949bc71-aad1-433e-94eb-803d04da0535",
-    "answer": "👉 1 - Tuve una llamada sospechosa\n👉 2 - Me enviaron un correo sospechoso\n👉 3 - Me mandaron un link sospechoso",
+    "ref": "ans_e900d02c-a4e0-4dfb-9da9-ac897e9f15b1",
+    "keyword": "ans_ea3e4fe1-7262-4ffd-aecb-962e0de0a5c5",
+    "answer": "👉 1 - Tuve una llamada sospechosa\n👉 2 - Me enviaron un correo sospechoso\n👉 3 - Me mandaron un link sospechoso\n👉 5 - Si lo prefieres puedes enviar una nota de voz explicando la situación y te ayudaré.",
     "options": {
       "media": null,
       "buttons": [],
@@ -38,112 +38,64 @@
       "delay": 0,
       "idle": null,
       "ref": null,
-      "nested": [
-        {
-          "ref": "key_47ffcf16-ab40-48fa-a248-bda4e764baf7",
-          "keyword": [
-            "1"
-          ],
-          "options": {
-            "sensitive": false,
-            "regex": false
-          },
-          "refSerialize": "e0b2cd1acac633ea641e2d526690d369"
-        },
-        {
-          "ref": "ans_83ccc88b-f384-410d-b193-ee4a71fffb1f",
-          "keyword": "key_47ffcf16-ab40-48fa-a248-bda4e764baf7",
-          "answer": "Lamento oír eso, cuéntame en un mensaje sobre la situación: ¿quién te llamó?, ¿de dónde?, ¿qué te dijeron?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "idle": null,
-            "ref": null,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "1b2e46542ffb099d551124a09a3c4c26"
-        },
-        {
-          "ref": "key_bf49431b-3186-485b-a2ff-b1aa96053806",
-          "keyword": [
-            "2"
-          ],
-          "options": {
-            "sensitive": false,
-            "regex": false
-          },
-          "refSerialize": "389a29e5d1b72d14d3fa321bb058be56"
-        },
-        {
-          "ref": "ans_8ca48df1-4c86-4c0c-a36e-819cf0c82309",
-          "keyword": "key_bf49431b-3186-485b-a2ff-b1aa96053806",
-          "answer": "Parece que recibiste un correo sospechoso. Por favor, describe el asunto del correo, quién lo envió y el contenido que te genera sospechas.",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "idle": null,
-            "ref": null,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "d8e3dc2345c9cb1d443cf1423f99bb7b"
-        },
-        {
-          "ref": "key_037cc5ad-da2c-4b02-a929-f456e6645d9f",
-          "keyword": [
-            "3"
-          ],
-          "options": {
-            "sensitive": false,
-            "regex": false
-          },
-          "refSerialize": "f527e0d58165f42aac80200dd9e494bc"
-        },
-        {
-          "ref": "ans_770b09f3-9718-49d7-9820-a5a8b58c781f",
-          "keyword": "key_037cc5ad-da2c-4b02-a929-f456e6645d9f",
-          "answer": "Parece que recibiste un link sospechoso. Por favor, comparte el link y describe el contexto en el que lo recibiste.",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "idle": null,
-            "ref": null,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "d5a3aa01ee3a82460ea008d69705a3c2"
-        }
-      ],
+      "nested": [],
       "keyword": {},
       "callback": false
     },
-    "refSerialize": "a590550a3e11549fefc5e3398ffd55ac",
-    "from": "5215567905798"
+    "refSerialize": "2218b337530a0dbd0c6fc9c51a0ee6b2",
+    "from": "5215619884813"
   },
   {
-    "ref": "3f88ce44-480e-4638-9935-02b1c42e0db4",
-    "keyword": "a590550a3e11549fefc5e3398ffd55ac",
-    "answer": "1",
+    "ref": "97a54c6b-1f8b-488d-b859-5b0ef53e080d",
+    "keyword": "2218b337530a0dbd0c6fc9c51a0ee6b2",
+    "answer": "5",
     "options": {},
-    "from": "5215567905798",
-    "refSerialize": "290236b1d481a790a200ea6e94b2122a"
+    "from": "5215619884813",
+    "refSerialize": "d2b414a4bc0b3490276097c7513b4c8c"
   },
   {
-    "ref": "ans_83ccc88b-f384-410d-b193-ee4a71fffb1f",
-    "keyword": "key_47ffcf16-ab40-48fa-a248-bda4e764baf7",
+    "ref": "ans_308ec4d4-3f0f-4322-a07c-27f5754061f4",
+    "keyword": "key_f6bc25a5-dccd-4bb4-b2ff-383d314bcf96",
+    "answer": "Envíame tu nota de voz.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "275dcbd7155b590edaae58dddb02f79f",
+    "from": "5215619884813"
+  },
+  {
+    "ref": "ccf80f24-3bb8-4fba-b748-63d88bda2cf3",
+    "keyword": "275dcbd7155b590edaae58dddb02f79f",
+    "answer": "_event_voice_note__510e7aa8-5d09-4cce-8715-14ac064a7890",
+    "options": {},
+    "from": "5215619884813",
+    "refSerialize": "75d0a0291f49fddb84282fdd7af776e8"
+  },
+  {
+    "ref": "4fece8eb-c3c0-467a-b90b-4f3c2a7ec784",
+    "keyword": null,
+    "answer": "Es comprensible que te sientas angustiado después de ser víctima de robo de datos, especialmente siendo una persona de la tercera edad. Tranquilízate, te voy a ayudar a entender la situación y a tomar medidas para protegerte. \n\n**Análisis de la situación:**\n\n* **Clic en un enlace:**  Parece que accediste a un enlace sospechoso que te llevó a un sitio web fraudulento.\n* **Robo de datos:** Este sitio web malicioso recopiló información personal como tu nombre de usuario, contraseña, número de cuenta bancaria, etc. \n* **Preocupación:**  Entiendo que te sientas asustado e inseguro, es normal. \n\n**Consejos para actuar:**\n\n1. **Contáctate con tu banco o institución financiera inmediatamente:** Informa sobre el posible robo de datos y solicita la cancelación de tarjetas de crédito o débito, si es necesario. También puedes solicitar la emisión de nuevas tarjetas con nuevos números.\n2. **Cambia tus contraseñas:** Modifica las contraseñas de todas tus cuentas online, especialmente las que usabas en la computadora o el dispositivo donde hiciste clic en el enlace. \n3. **Monitorea tus cuentas:** Vigila tus cuentas bancarias y de tarjetas de crédito por movimientos sospechosos. \n4. **Considera reportar el incidente:** Puedes reportar el robo de datos a la policía o a las autoridades correspondientes.\n5. **Contacta con la institución que te envío el correo:** En caso de que el correo electrónico que te llevó a hacer clic en el enlace haya sido enviado por una institución o empresa conocida, infórmales sobre la situación.\n6. **Cuida tus datos en el futuro:**  Sé cauteloso con los enlaces que recibes por correo electrónico, mensajes de texto o redes sociales. Verifica que la dirección web sea la correcta y no hagas clic en enlaces que te parezcan sospechosos.\n7. **Busca ayuda:** No dudes en pedir ayuda a un familiar, amigo o a un profesional si te sientes abrumado o inseguro.  \n\n**Recuerda:**\n\n* No te sientas culpable por lo sucedido. El phishing y los ataques cibernéticos son cada vez más sofisticados.\n* Actúa con rapidez para minimizar los daños.\n* No dudes en solicitar ayuda si la necesitas.\n\nEspero que estos consejos te sean útiles. Recuerda que hay muchas personas que te pueden ayudar a superar esta situación. \n",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5215619884813",
+    "refSerialize": "9d80ef6c474a31cfa68b3c27777e3a7c"
+  },
+  {
+    "ref": "ans_1717c2ab-d057-4224-97ab-31dad0372950",
+    "keyword": "key_14238560-e4d0-467c-87d1-d7ec778d4457",
     "answer": "Lamento oír eso, cuéntame en un mensaje sobre la situación: ¿quién te llamó?, ¿de dónde?, ¿qué te dijeron?",
     "options": {
       "media": null,
@@ -157,184 +109,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "1b2e46542ffb099d551124a09a3c4c26",
-    "from": "5215567905798"
+    "refSerialize": "24b0ff71f951c89248ad3566fb57ba9e",
+    "from": "5215619884813"
   },
   {
-    "ref": "11db4e49-ab48-433e-8d03-7800d5b2321c",
-    "keyword": "1b2e46542ffb099d551124a09a3c4c26",
-    "answer": "Mi tío que es bien fraudulento me quiere pedir dinero, le quiero prestar pero dijo que si no me iba a hacer algo y tengo miedo",
-    "options": {},
-    "from": "5215567905798",
-    "refSerialize": "2f6139d20bc00a4f3886f7b5d65bf6ca"
-  },
-  {
-    "ref": "11f3f8b3-88e3-4169-960d-66ba671aa0ec",
-    "keyword": null,
-    "answer": "Me preocupa mucho tu situación. Es comprensible que tengas miedo ante las amenazas de tu tío, especialmente si sabes que es capaz de cometer fraudes. \n\n**Aquí te dejo algunos consejos sobre cómo actuar:**\n\n**1. No le prestes dinero:** En primer lugar, es fundamental que entiendas que **no estás obligado a prestarle dinero a nadie, especialmente si te presionan o amenazan.** Tu seguridad y bienestar son prioritarios. \n\n**2. Documenta las amenazas:** Guarda cualquier evidencia de las amenazas que recibas de tu tío. Esto puede incluir mensajes de texto, correos electrónicos, grabaciones de llamadas o testigos que puedan corroborar sus amenazas. \n\n**3. Busca ayuda:** \n\n* **Confía en alguien:** Habla con un familiar o amigo de confianza sobre lo que está sucediendo. \n* **Busca apoyo profesional:** Puedes considerar la posibilidad de hablar con un psicólogo o un trabajador social para obtener apoyo emocional y consejos sobre cómo manejar la situación.\n* **Contacta con las autoridades:** Si las amenazas se vuelven graves o te sientes en peligro, considera denunciar la situación a la policía. \n\n**4. Mantén la distancia:** Evita el contacto directo con tu tío, especialmente si te sientes inseguro o amenazado. \n\n**5. Prioriza tu seguridad:** No dudes en tomar medidas para protegerte a ti mismo, como cambiar de número de teléfono o tomar medidas de seguridad en tu casa. \n\n**6. Recuerda que no estás solo:** Hay personas que pueden ayudarte y recursos disponibles para apoyarte en esta situación difícil.\n\n**Es importante tener en cuenta que tu bienestar es lo más importante.** No te sientas culpable por no ceder a las presiones de tu tío. \n\n**Recuerda que la decisión de prestar dinero o no es tuya y tienes derecho a protegerte.** Si necesitas ayuda, no dudes en buscarla.\n",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "5215567905798",
-    "refSerialize": "81939f028da2a3fbd01dd5abe56380cf"
-  },
-  {
-    "ref": "8aff77e3-b6cc-4a7a-8698-83b3f3e30177",
-    "keyword": "2f6139d20bc00a4f3886f7b5d65bf6ca",
-    "answer": "2",
-    "options": {},
-    "from": "5215567905798",
-    "refSerialize": "2294c3d08b53a6effa5df696a15b9d30"
-  },
-  {
-    "ref": "59a29d1d-9271-41c6-b54e-d614b22f5946",
-    "keyword": "2294c3d08b53a6effa5df696a15b9d30",
-    "answer": "Ayuda",
-    "options": {},
-    "from": "5215567905798",
-    "refSerialize": "6f1c8ec9910afc8ad71c026ec0c69f3d"
-  },
-  {
-    "ref": "ans_0949bc71-aad1-433e-94eb-803d04da0535",
-    "keyword": "key_288edfe0-e9de-47a0-a7a0-7b74383018cd",
-    "answer": "Hola! Soy tu asistente en ciberseguridad y estoy para ayudarte y resolver tus dudas. Escribe el número de la opción con la que requieres asistencia.",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 1500,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": false
-    },
-    "refSerialize": "e4aa82cb32c6ddc16c0df6132d733a6b",
-    "from": "5215567905798"
-  },
-  {
-    "ref": "ans_2b379421-fa83-491d-b6b8-d1ef4c2c1f77",
-    "keyword": "ans_0949bc71-aad1-433e-94eb-803d04da0535",
-    "answer": "👉 1 - Tuve una llamada sospechosa\n👉 2 - Me enviaron un correo sospechoso\n👉 3 - Me mandaron un link sospechoso",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [
-        {
-          "ref": "key_47ffcf16-ab40-48fa-a248-bda4e764baf7",
-          "keyword": [
-            "1"
-          ],
-          "options": {
-            "sensitive": false,
-            "regex": false
-          },
-          "refSerialize": "e0b2cd1acac633ea641e2d526690d369"
-        },
-        {
-          "ref": "ans_83ccc88b-f384-410d-b193-ee4a71fffb1f",
-          "keyword": "key_47ffcf16-ab40-48fa-a248-bda4e764baf7",
-          "answer": "Lamento oír eso, cuéntame en un mensaje sobre la situación: ¿quién te llamó?, ¿de dónde?, ¿qué te dijeron?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "idle": null,
-            "ref": null,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "1b2e46542ffb099d551124a09a3c4c26"
-        },
-        {
-          "ref": "key_bf49431b-3186-485b-a2ff-b1aa96053806",
-          "keyword": [
-            "2"
-          ],
-          "options": {
-            "sensitive": false,
-            "regex": false
-          },
-          "refSerialize": "389a29e5d1b72d14d3fa321bb058be56"
-        },
-        {
-          "ref": "ans_8ca48df1-4c86-4c0c-a36e-819cf0c82309",
-          "keyword": "key_bf49431b-3186-485b-a2ff-b1aa96053806",
-          "answer": "Parece que recibiste un correo sospechoso. Por favor, describe el asunto del correo, quién lo envió y el contenido que te genera sospechas.",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "idle": null,
-            "ref": null,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "d8e3dc2345c9cb1d443cf1423f99bb7b"
-        },
-        {
-          "ref": "key_037cc5ad-da2c-4b02-a929-f456e6645d9f",
-          "keyword": [
-            "3"
-          ],
-          "options": {
-            "sensitive": false,
-            "regex": false
-          },
-          "refSerialize": "f527e0d58165f42aac80200dd9e494bc"
-        },
-        {
-          "ref": "ans_770b09f3-9718-49d7-9820-a5a8b58c781f",
-          "keyword": "key_037cc5ad-da2c-4b02-a929-f456e6645d9f",
-          "answer": "Parece que recibiste un link sospechoso. Por favor, comparte el link y describe el contexto en el que lo recibiste.",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "idle": null,
-            "ref": null,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "d5a3aa01ee3a82460ea008d69705a3c2"
-        }
-      ],
-      "keyword": {},
-      "callback": false
-    },
-    "refSerialize": "a590550a3e11549fefc5e3398ffd55ac",
-    "from": "5215567905798"
-  },
-  {
-    "ref": "a21f06ac-5195-40d4-8116-87b839ba5b3e",
-    "keyword": "a590550a3e11549fefc5e3398ffd55ac",
-    "answer": "2",
-    "options": {},
-    "from": "5215567905798",
-    "refSerialize": "2294c3d08b53a6effa5df696a15b9d30"
-  },
-  {
-    "ref": "ans_8ca48df1-4c86-4c0c-a36e-819cf0c82309",
-    "keyword": "key_bf49431b-3186-485b-a2ff-b1aa96053806",
-    "answer": "Parece que recibiste un correo sospechoso. Por favor, describe el asunto del correo, quién lo envió y el contenido que te genera sospechas.",
+    "ref": "ans_1717c2ab-d057-4224-97ab-31dad0372950",
+    "keyword": "key_14238560-e4d0-467c-87d1-d7ec778d4457",
+    "answer": "Lamento oír eso, cuéntame en un mensaje sobre la situación: ¿quién te llamó?, ¿de dónde?, ¿qué te dijeron?",
     "options": {
       "media": null,
       "buttons": [],
@@ -347,210 +128,28 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "d8e3dc2345c9cb1d443cf1423f99bb7b",
-    "from": "5215567905798"
+    "refSerialize": "24b0ff71f951c89248ad3566fb57ba9e",
+    "from": "5215621838026"
   },
   {
-    "ref": "39624112-0b2f-4e90-b480-77e5468c8774",
-    "keyword": "d8e3dc2345c9cb1d443cf1423f99bb7b",
-    "answer": "Me llegó un correo del príncipe de cambodia donde me pide dinero para poder invertir en su empresa",
+    "ref": "8864d9dc-6e71-4808-be1c-aac64d2d5d6c",
+    "keyword": "24b0ff71f951c89248ad3566fb57ba9e",
+    "answer": "En ventas agregar circulito de menú",
     "options": {},
-    "from": "5215567905798",
-    "refSerialize": "b4c0c4fa4616a668a5d64795c8b196e4"
+    "from": "5215621838026",
+    "refSerialize": "90b4e4f410932501ad791521144c9e7d"
   },
   {
-    "ref": "7d749f9c-6a33-45db-9376-f8e7f091f565",
+    "ref": "e818128d-36b6-4207-a803-2d125f8c0e07",
     "keyword": null,
-    "answer": "## Análisis del correo electrónico y recomendaciones:\n\n**Descripción:** Un correo electrónico recibido de alguien que se identifica como un príncipe de Camboya solicitando dinero para invertir en su empresa.\n\n**Análisis:**\n\n* **Sospechoso:** Esta situación es extremadamente sospechosa. Es altamente improbable que un príncipe de Camboya se comunique contigo directamente por correo electrónico para solicitar dinero.\n* **Fraude común:** Este tipo de correo electrónico es una estafa común conocida como \"estafa del príncipe nigeriano\" o \"estafa de la herencia\", donde los estafadores se hacen pasar por personas adineradas que necesitan ayuda para transferir dinero a otro país. \n* **Motivación:** El objetivo de los estafadores es obtener tu dinero. Te pueden prometer grandes ganancias a cambio de tu inversión, pero nunca te pagarán.\n\n**Recomendaciones:**\n\n* **No respondas al correo electrónico:** No intentes comunicarte con el remitente, ya que esto podría confirmar tu interés y animar a los estafadores.\n* **No envíes dinero:** Nunca envíes dinero a alguien que conoces por internet, especialmente si te lo pide para una \"inversión\". \n* **Bloquea el remitente:** Marca el correo electrónico como spam o correo no deseado y bloquea el remitente.\n* **Reporta el correo electrónico:** Reporta el correo electrónico a las autoridades competentes para ayudar a combatir este tipo de estafas.\n* **No compartas información personal:** No reveles información personal como tu nombre completo, dirección, número de teléfono o información financiera.\n* **Sé cauteloso con las promesas de riqueza rápida:** Si recibes una oferta que parece demasiado buena para ser verdad, es probable que sea una estafa. \n\n**En resumen:** Es fundamental ser extremadamente cauteloso con correos electrónicos de remitentes desconocidos que solicitan dinero o inversiones. Investiga la información y busca ayuda profesional si tienes dudas. No te dejes engañar por promesas falsas de riqueza fácil.\n",
+    "answer": "Por favor, proporciona más información sobre la situación que describes. Para poder analizar la situación y proporcionar consejos, necesito saber:\n\n* **¿Qué significa \"agregar circulito de menú\" en este contexto?** ¿Se refiere a un elemento visual en una página web, una aplicación móvil, un menú físico, etc.? \n* **¿En qué tipo de ventas se aplica esta acción?** ¿Es para un negocio online, un restaurante, una tienda física, etc.?\n* **¿Qué objetivo se busca al agregar el circulito de menú?** ¿Aumentar las ventas, mejorar la experiencia del usuario, facilitar la navegación, etc.?\n* **¿Cuál es la situación actual?** ¿Ya existe un menú? ¿Está funcionando bien? ¿Hay algún problema que se busca solucionar?\n\nCon más información, puedo analizar la situación y darte consejos sobre cómo actuar. Por ejemplo, si se trata de un menú digital para un restaurante, podría recomendarte:\n\n* **Utilizar un color que contraste con el fondo para que el circulito sea visible.**\n* **Asegurarte de que el circulito sea lo suficientemente grande para ser fácil de tocar.**\n* **Colocar el circulito en una posición estratégica que no bloquee contenido importante.**\n* **Utilizar un icono claro que represente el menú.**\n\n¡Proporcióname más detalles para que pueda ayudarte mejor! \n",
     "options": {
       "media": null,
       "buttons": [],
       "capture": false,
       "delay": 0
     },
-    "from": "5215567905798",
-    "refSerialize": "b9782a4ea639ec111f2c060f08a6e63b"
-  },
-  {
-    "ref": "0e0bd7f3-7ab2-43f5-b7fa-e8196464cffb",
-    "keyword": "b4c0c4fa4616a668a5d64795c8b196e4",
-    "answer": "Ayuda",
-    "options": {},
-    "from": "5215567905798",
-    "refSerialize": "6f1c8ec9910afc8ad71c026ec0c69f3d"
-  },
-  {
-    "ref": "ans_0949bc71-aad1-433e-94eb-803d04da0535",
-    "keyword": "key_288edfe0-e9de-47a0-a7a0-7b74383018cd",
-    "answer": "Hola! Soy tu asistente en ciberseguridad y estoy para ayudarte y resolver tus dudas. Escribe el número de la opción con la que requieres asistencia.",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 1500,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": false
-    },
-    "refSerialize": "e4aa82cb32c6ddc16c0df6132d733a6b",
-    "from": "5215567905798"
-  },
-  {
-    "ref": "ans_2b379421-fa83-491d-b6b8-d1ef4c2c1f77",
-    "keyword": "ans_0949bc71-aad1-433e-94eb-803d04da0535",
-    "answer": "👉 1 - Tuve una llamada sospechosa\n👉 2 - Me enviaron un correo sospechoso\n👉 3 - Me mandaron un link sospechoso",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [
-        {
-          "ref": "key_47ffcf16-ab40-48fa-a248-bda4e764baf7",
-          "keyword": [
-            "1"
-          ],
-          "options": {
-            "sensitive": false,
-            "regex": false
-          },
-          "refSerialize": "e0b2cd1acac633ea641e2d526690d369"
-        },
-        {
-          "ref": "ans_83ccc88b-f384-410d-b193-ee4a71fffb1f",
-          "keyword": "key_47ffcf16-ab40-48fa-a248-bda4e764baf7",
-          "answer": "Lamento oír eso, cuéntame en un mensaje sobre la situación: ¿quién te llamó?, ¿de dónde?, ¿qué te dijeron?",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "idle": null,
-            "ref": null,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "1b2e46542ffb099d551124a09a3c4c26"
-        },
-        {
-          "ref": "key_bf49431b-3186-485b-a2ff-b1aa96053806",
-          "keyword": [
-            "2"
-          ],
-          "options": {
-            "sensitive": false,
-            "regex": false
-          },
-          "refSerialize": "389a29e5d1b72d14d3fa321bb058be56"
-        },
-        {
-          "ref": "ans_8ca48df1-4c86-4c0c-a36e-819cf0c82309",
-          "keyword": "key_bf49431b-3186-485b-a2ff-b1aa96053806",
-          "answer": "Parece que recibiste un correo sospechoso. Por favor, describe el asunto del correo, quién lo envió y el contenido que te genera sospechas.",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "idle": null,
-            "ref": null,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "d8e3dc2345c9cb1d443cf1423f99bb7b"
-        },
-        {
-          "ref": "key_037cc5ad-da2c-4b02-a929-f456e6645d9f",
-          "keyword": [
-            "3"
-          ],
-          "options": {
-            "sensitive": false,
-            "regex": false
-          },
-          "refSerialize": "f527e0d58165f42aac80200dd9e494bc"
-        },
-        {
-          "ref": "ans_770b09f3-9718-49d7-9820-a5a8b58c781f",
-          "keyword": "key_037cc5ad-da2c-4b02-a929-f456e6645d9f",
-          "answer": "Parece que recibiste un link sospechoso. Por favor, comparte el link y describe el contexto en el que lo recibiste.",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "idle": null,
-            "ref": null,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "d5a3aa01ee3a82460ea008d69705a3c2"
-        }
-      ],
-      "keyword": {},
-      "callback": false
-    },
-    "refSerialize": "a590550a3e11549fefc5e3398ffd55ac",
-    "from": "5215567905798"
-  },
-  {
-    "ref": "606b55aa-62ca-4220-8ea8-b6aa80210011",
-    "keyword": "a590550a3e11549fefc5e3398ffd55ac",
-    "answer": "3",
-    "options": {},
-    "from": "5215567905798",
-    "refSerialize": "7af65864494b12f0f7ef00589f4d3979"
-  },
-  {
-    "ref": "ans_770b09f3-9718-49d7-9820-a5a8b58c781f",
-    "keyword": "key_037cc5ad-da2c-4b02-a929-f456e6645d9f",
-    "answer": "Parece que recibiste un link sospechoso. Por favor, comparte el link y describe el contexto en el que lo recibiste.",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": true,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "d5a3aa01ee3a82460ea008d69705a3c2",
-    "from": "5215567905798"
-  },
-  {
-    "ref": "ffddda1e-5cbc-4946-8e90-4f3dc8bf4328",
-    "keyword": "d5a3aa01ee3a82460ea008d69705a3c2",
-    "answer": "www.google.com \n\nMe llegó por parte de un amigo que mina cripto pero van varias veces que me quiere estafar",
-    "options": {},
-    "from": "5215567905798",
-    "refSerialize": "fa67bb23b8343f9437afbdf517e99eae"
-  },
-  {
-    "ref": "74c81300-0451-48fb-9533-40a11fac8e1f",
-    "keyword": null,
-    "answer": "¡No abras el enlace! \n\nEl enlace **www.google.com** es la página de inicio de Google, un sitio web legítimo y seguro. Sin embargo, **tu amigo te está intentando estafar**. \n\n**Aquí por qué:**\n\n* **Usar Google como enlace de estafa:** Es un truco común usar un enlace aparentemente seguro para engañarte. El enlace podría llevarte a una página falsa que se parece mucho a la página de inicio de Google, pero que tiene como objetivo robarte información o instalar malware en tu computadora.\n* **Tu amigo ya te ha intentado estafar:**  Si tu amigo ya intentó estafarte en el pasado, es muy probable que este sea otro intento de hacerlo.\n* **La minería de criptomonedas puede ser utilizada para estafas:** Hay muchas estafas relacionadas con la minería de criptomonedas. Tu amigo podría intentar convencerte de invertir en un esquema de \"minería\" falso o de descargar un software malicioso que te roba criptomonedas.\n\n**En lugar de abrir el enlace:**\n\n* **Habla con tu amigo:** Pregúntale qué quería decirte. Si se rehúsa a explicarte o te da excusas vagas, es una señal roja.\n* **Confía en tu instinto:** Si algo te parece sospechoso, es mejor no interactuar con el enlace o con tu amigo. \n* **Investiga:** Si tu amigo insiste en que es un enlace seguro, puedes intentar buscar en Google el nombre de la página o el enlace para ver si hay información sobre su legitimidad. \n\n**Recuerda:**  Siempre es mejor prevenir que lamentar. ¡No abras enlaces sospechosos y ten cuidado con las personas que intentan convencerte de invertir en esquemas que prometen ganancias rápidas o fáciles! \n",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "5215567905798",
-    "refSerialize": "b5e0fec0c0dbc96d1f5a0f23001bd5ba"
+    "from": "5215621838026",
+    "refSerialize": "05d76af7c7810a4d1e3b790f9bf1ab55"
   }
 ]
