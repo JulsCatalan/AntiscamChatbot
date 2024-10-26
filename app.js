@@ -31,7 +31,7 @@ async function uploadAudioFile(audioPath) {
 }
 
 // Definición de `flowVoiceNote`
-const flowVoiceNote = addKeyword(['5']).addAnswer(
+const flowVoiceNote = addKeyword(['4']).addAnswer(
   "Envíame tu nota de voz.",
   { capture: true },
   async (ctx, { flowDynamic }) => {
